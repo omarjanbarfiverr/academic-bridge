@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: academic-fiverr-funnel
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ACADEMIC_ADMIN_KEY
+        generateValue: true
+      - key: ACADEMIC_ADMIN_PASSWORD
+        generateValue: true
+      - key: ACADEMIC_SESSION_SECRET
+        generateValue: true
+      - key: FIVERR_URL
+        value: https://www.fiverr.com/your-fiverr-username
+      - key: SITE_URL
+        value: https://example.com

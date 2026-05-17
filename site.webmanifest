@@ -1,0 +1,10 @@
+{
+  "name": "Academic Bridge",
+  "short_name": "Academic Bridge",
+  "description": "Premium academic support portfolio, blog CMS, and Fiverr lead-generation website.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0e0e0e",
+  "icons": []
+}

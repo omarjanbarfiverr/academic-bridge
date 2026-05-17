@@ -1,0 +1,14 @@
+{
+  "name": "academic-fiverr-funnel-website",
+  "version": "1.0.0",
+  "description": "Premium academic assistance portfolio and lead-generation website that redirects all orders safely to Fiverr.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
